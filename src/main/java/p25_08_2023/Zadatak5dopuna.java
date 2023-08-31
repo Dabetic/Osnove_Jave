@@ -1,12 +1,14 @@
 package p25_08_2023;
 
-import java.util.Scanner;
-
-public class Zadatak5 {
+public class Zadatak5dopuna {
     public static void main(String[] args) {
 
-        zvezdice(5);
-        zvezdice(9);
+        int m = 10;
+
+        for (int i = 1; i <= m ; i++) {
+            zvezdice(i);
+        }
+
 
     }
 
@@ -14,6 +16,7 @@ public class Zadatak5 {
 
         for (int i = 0; i < z; i++) {
             System.out.print("*");
+
         }
 
         System.out.println(" ");
@@ -21,3 +24,5 @@ public class Zadatak5 {
     }
 
 }
+
+

@@ -12,25 +12,28 @@ public class Zadatak7 {
         System.out.println("Unesite drugu stranicu");
         int drugaStr = s.nextInt();
 
-        System.out.println("Unesite drugu stranicu");
+        System.out.println("Unesite hipotenuzu");
         int hipo = s.nextInt();
 
+        boolean rezultat = pravougliTrougao(prvaStr,drugaStr,hipo);
 
+        System.out.println(rezultat);
 
     }
-    public static void pravougliTrougao (int prvaStr , int drugaStr, int hipo) {
+    public static Boolean pravougliTrougao (int a, int b, int c) {
 
-        int a = prvaStr;
-        int b = drugaStr;
-        int c = hipo;
+        boolean provera = true;
 
+        if (a*a+b*b==c*c) {
 
-        if(a*a+b*b==c*c) {
-        System.out.println("Trougao je pravougli"); }
-        else {
-            System.out.println("Trougao nije pravougli");
+            provera = true;
+        } else {
+
+            provera = false;
         }
 
-
+        return provera;
     }
+
+
 }
