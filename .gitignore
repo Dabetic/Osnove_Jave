@@ -12,6 +12,8 @@ target/
 *.iws
 *.iml
 *.ipr
+.VEZBA/
+.JAVA_TEST_PRVI/
 
 ### Eclipse ###
 .apt_generated
