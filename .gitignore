@@ -12,8 +12,7 @@ target/
 *.iws
 *.iml
 *.ipr
-.VEZBA/
-.JAVA_TEST_PRVI/
+./src/main/java/VEZBA_OOP
 
 ### Eclipse ###
 .apt_generated
