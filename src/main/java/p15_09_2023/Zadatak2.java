@@ -34,10 +34,14 @@ public class Zadatak2 {
     public static void main(String[] args) {
 
         VisaKartica kartica1 = new VisaKartica(300,"75558889",10,23,"Milos Dabetic");
+//        MasterKartica kartica2;
+
         MasterKartica kartica2 = new MasterKartica(500,"broj7777",11,23,"Petar Petrovic");
 
         kartica1.stampanje();
         kartica1.dodajSredstva(20);
+
+        kartica2.stampanje();
 
         System.out.println("**************");
         kartica1.stampanje();

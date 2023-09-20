@@ -23,7 +23,7 @@ public class VisaKartica extends PlatnaKartica {
 
     @Override
     public void stampanje () {
-        super.stampanje();
+//        super.stampanje();
         System.out.println("Ovlasceno lice: " + ovalcenoLice);
     }
 

@@ -19,12 +19,13 @@ public class MasterKartica extends PlatnaKartica {
         this.ovlacenoLice = ovlascenoLice;
     }
 
-    public void naplataProvizije (int provizija) {
+    public void naplataProvizije(int provizija) {
         suma += provizija;
     }
+
     @Override
-    public void stampanje () {
-     super.stampanje();
-        System.out.println("Ovlasceno lice: " + ovlacenoLice);
-    }
+    public void stampanje()
+    {   this.stampanje();
+        System.out.println("Ovlasceno lice: "+ovlacenoLice);
+}
 }

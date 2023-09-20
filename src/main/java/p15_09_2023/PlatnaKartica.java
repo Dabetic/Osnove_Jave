@@ -11,7 +11,7 @@ package p15_09_2023;
 ////  metodu izvrsiTransakciju koja skida prosledjenu vrednost sa racuna.
 ////  metodu koja stampa podatke o kartici u formatu:
 ////	  4012-1239-1221-3381, 11/2019, $212
-public class PlatnaKartica {
+public abstract class PlatnaKartica {
 
     protected int suma;
     protected String brojKartice;
@@ -52,8 +52,9 @@ public class PlatnaKartica {
         suma -= iznos;
     }
 
-    public void stampanje() {
-        System.out.println(this.brojKartice + " " + this.mesecVazenjaKartice + "/" + this.godinaVaznjaKartice + " $" + this.suma);
-    }
+    public abstract void stampanje();
+//    {
+//        System.out.println(this.brojKartice + " " + this.mesecVazenjaKartice + "/" + this.godinaVaznjaKartice + " $" + this.suma);
+//    }
 
 }

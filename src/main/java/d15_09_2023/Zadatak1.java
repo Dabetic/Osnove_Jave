@@ -47,7 +47,7 @@ public class Zadatak1 {
         ArrayList<Trener>nizTrenera = new ArrayList<>();
 
 
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 1; i++) {
             System.out.println("Unesite ime igraca:");
             String imeIgraca = s.next();
 
